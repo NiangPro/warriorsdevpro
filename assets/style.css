@@ -1,0 +1,98 @@
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-home {
+    color: aliceblue;
+    font-size: 38px;
+    font-family: Algerian, Geneva, Tahoma, sans-serif, sans-serif;
+    text-shadow: 5px 5px 5px orange;
+}
+
+#home img {
+    width: 350px;
+    height: 300px;
+    background: #17a2b8;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    border-right: 10px inset orange;
+}
+
+#home img:hover {
+    transition: 3s;
+    background: #87e5f3;
+    border-top-right-radius: 50%;
+    border-left: 10px inset orange;
+}
+
+#about video {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px 5px orange;
+}
+
+#about p {
+    font-size: 20px;
+    border-right: 3px solid orange;
+    border-radius: 15px;
+}
+
+#about p::first-letter {
+    font-size: 45px;
+    font-weight: bold;
+    color: orange;
+    font-family: algerian;
+}
+
+#about h1 {
+    border-bottom-right-radius: 15px;
+    border-bottom: 3px solid orange;
+}
+
+h3 {
+    font-family: algerian;
+    text-shadow: 5px 5px 5px orange;
+
+
+}
+
+.card {
+    box-shadow: 2px 2px 5px 2px orange;
+    border-radius: 10px;
+}
+
+#gallery img {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    border-right: 5px solid orange;
+    border-left: 5px solid orange;
+}
+
+#gallery li {
+    color: orange !important;
+}
+
+#skill img:hover {
+    background: orange;
+    opacity: .8;
+}
+
+#scroll-top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 55px;
+    right: 30px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+#scroll-top img {
+    width: 100%;
+    height: 100%;
+}
